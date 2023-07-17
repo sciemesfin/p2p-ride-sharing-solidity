@@ -38,10 +38,6 @@ Make sure you have the following installed before using this contract:
    - `updateFeePercentage(uint256 _feePercentage)`: Update the fee percentage charged by the platform.
    - `getRideStatus(uint256 _rideId)`: Get the status of a specific ride.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 
 Try running some of the following tasks:
 
@@ -52,3 +48,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
+
+## License
+
+
